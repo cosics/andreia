@@ -1,0 +1,81 @@
+.showcase1,
+.showcase2,
+.showcase3,
+.showcase4,
+.showcase5,
+.showcase6,
+.showcase7 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  color: #fff;
+}
+
+.showcase1 .showcase-inner,
+.showcase2 .showcase-inner,
+.showcase3 .showcase-inner,
+.showcase4 .showcase-inner,
+.showcase5 .showcase-inner,
+.showcase6 .showcase-inner,
+.showcase7 .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.showcase1 h1,
+.showcase2 h1,
+.showcase3 h1,
+.showcase4 h1,
+.showcase5 h1,
+.showcase6 h1,
+.showcase7 h1 {
+  font-size: 3rem;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 80%;
+}
+
+.showcase1 p,
+.showcase2 p,
+.showcase3 p,
+.showcase4 p,
+.showcase5 p,
+.showcase6 p,
+.showcase7 p {
+  font-size: 0.8rem;
+  background-color: rgba(156, 103, 71, 0.75);
+  color: #f4f4f4;
+  padding: 20px;
+  opacity: 100%;
+}
+
+.showcase1 {
+  background: url("../img/unu.jpg") no-repeat center center/cover;
+}
+.showcase2 {
+  background: url("../img/doi.png") no-repeat center center/cover;
+}
+.showcase3 {
+  background: url("../img/trei.jpg") no-repeat center center/cover;
+}
+.showcase4 {
+  background: url("../img/patru.jpg") no-repeat center center/cover;
+}
+.showcase5 {
+  background: url("../img/cinci.jpg") no-repeat center center/cover;
+}
+.showcase6 {
+  background: url("../img/sase.jpg") no-repeat center center/cover;
+}
+.showcase7 {
+  background: url("../img/sapte.jpg") no-repeat center center/cover;
+}
